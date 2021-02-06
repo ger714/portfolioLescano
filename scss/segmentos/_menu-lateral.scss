@@ -1,0 +1,72 @@
+@import "mixin/media-screen";
+
+.menuLat{
+  
+    header{
+     
+      position: fixed;
+      overflow: hidden;
+      width: 100%;
+      height: auto;
+      
+
+      img{
+        width: 50px;
+        position: fixed;
+      }
+    
+    }
+    
+  
+    .sidebar{
+        margin-top: 100px;
+        position: fixed;
+        overflow-x: hidden;
+        left: 0;
+        width: 80px;
+        height: auto;
+        background: #1e1e1e63;
+     
+        
+        a{
+            display: block;
+            color: white;
+            height: 55px;
+            width: auto;
+            line-height:  55px;
+            padding-left: 25px;
+            border-bottom: 1px, solid rgba(255, 255, 255, .1);
+            border-top: 1px solid black;
+            border-left: 5px solid  transparent;
+            box-sizing: border-box;
+            text-decoration: none;
+  
+       
+
+            
+  
+              i{
+                font-size: 23px;
+                margin-right: 10px;
+
+              }
+  
+              span{
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                text-align: center;
+
+              }
+           
+          }  
+  
+          a:hover, a.active{
+            border-left: 5px solid $color-verde;
+            color: $color-verde;
+
+          } 
+        
+      }
+
+  
+  }

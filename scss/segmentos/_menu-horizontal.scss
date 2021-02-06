@@ -1,0 +1,59 @@
+@import "mixin/media-screen";
+/*Menu Horizontal*/
+#menuHor{
+    display: none;
+
+
+      nav{
+        background: rgba(0, 0, 0, 0.74);
+
+        img{
+            position: relative;
+            width: 70px;
+            padding: 3px;
+        }
+
+        .fas{
+            font-size: $follow-icon;
+            color: $color-verde;
+        }
+        
+        .fab{
+            font-size: $follow-icon;
+            color: $color-verde;
+        }
+        
+        
+        li{
+            a.active {
+                background-color: #555;
+                color: rgb(0, 247, 255);
+                text-transform: uppercase;
+              }
+
+              a:hover:not(.active) {
+                background-color: rgb(8, 8, 8);
+                color: rgb(233, 233, 233);
+              
+              }
+
+              a:hover, a.active{
+                border-left: 0;
+                color: rgb(0, 247, 255);
+              }
+            
+
+        } 
+          
+      
+          
+        
+          
+      }
+
+
+    @include tablet{
+        display: block;
+       position: relative;
+    }
+}

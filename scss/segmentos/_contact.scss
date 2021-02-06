@@ -1,0 +1,32 @@
+@import "mixin/main";
+
+@include main;
+
+
+
+  form{
+    text-align: left;
+
+
+    .form__input--padding{
+      padding: .3em 1em;
+    }
+
+    #btn-submit{
+      background: $color-verde;
+    }
+
+    
+      #msg{
+        width: 350px;
+        height: 200px;                
+      
+        @include phone{
+          width: 350px;
+          height: 100px;
+        }
+      }
+
+
+}
+

@@ -1,0 +1,13 @@
+
+@import "mixin/main";
+@import "base/color";
+
+@include main;
+
+.progress-bar{
+    background: $color-verde-oscuro;
+    color: $color-blanco;
+}
+
+
+

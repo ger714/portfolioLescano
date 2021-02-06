@@ -1,0 +1,25 @@
+@import "mixin/main";
+@import "base/color";
+
+@include main;
+
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+    a{
+        color: $color-blanco;
+
+        i{
+            font-size: 20px;
+    
+            &:hover{
+                color: rgb(4, 143, 148);
+            }
+        }
+
+    }
+
+   
+}

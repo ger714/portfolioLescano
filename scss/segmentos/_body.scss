@@ -1,0 +1,9 @@
+body{    
+    font-family: $fuente-body;
+    color: aliceblue;
+    block-size: cover;
+    letter-spacing: 5px;
+    line-height: 30px;
+    background: rgb(0,14,57);
+    background: linear-gradient(90deg, rgba(0,14,57,0.95) 0%, rgba(1,16,91,0.95) 51%, rgba(0,14,57,1) 100%), url(../../img/brain.jpg);
+}
